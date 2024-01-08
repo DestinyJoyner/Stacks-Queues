@@ -42,6 +42,7 @@ class Queue {
         return this.first === null;
       }
 
+      // add node to the end of the list
     enqueue(data){
         let newNode = new Node(data)
         if(!this.first){
